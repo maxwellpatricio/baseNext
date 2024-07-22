@@ -1,0 +1,89 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# macOS files
+*.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Linux files
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Gatsby files
+.cache/
+public
+
+# vuepress build output
+.vuepress/dist
+
+# Storybook files
+.storybook/
+
+# Temporary files
+temp
+*.tmp
+*.swp
+
+# Styled components artifact
+__snapshots__
+
+# webpack artifacts
+dist/
+
+# .eslintcache
+.eslintcache
+
+# IDE specific
+.idea
+.vscode
+
+# VS Code settings
+.settings/
