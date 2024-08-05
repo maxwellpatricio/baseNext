@@ -1,7 +1,8 @@
-import Login from "./components/Login/Login";
+
+import Login from "@/components/Login/Login";
 
 export default function Home() {
   return (
-    <Login projectName="Projeto Teste" />
+    <Login title="Integração Base" />
   );
 }
