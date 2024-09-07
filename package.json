@@ -1,5 +1,5 @@
 {
-  "name": "antd-demo",
+  "name": "base-next-styledcomponents",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.4.0",
-    "antd": "^5.19.4",
-    "next": "14.2.5",
+    "next": "14.2.6",
+    "phosphor-react": "^1.4.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5",
+    "eslint-config-next": "14.2.6",
     "typescript": "^5"
-  }
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "plugins": [
+    "babel-plugin-styled-components"
+  ]
 }

@@ -1,8 +1,11 @@
+"use client"
 
-import Login from "@/components/Login/Login";
+import { LoginForm } from "@/components/LoginForm/LoginForm";
 
 export default function Home() {
   return (
-    <Login title="Integração Base" />
+    <>
+      <LoginForm title="Integração Base" />
+    </>
   );
 }

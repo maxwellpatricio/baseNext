@@ -1,31 +1,23 @@
 "use client"
-import React, { useState } from 'react';
-import SideMenu from '@/components/SideMenu/SideMenu';
+import styled from "styled-components";
+import { Card } from "@/components/Card/Card";
 
-const Dashboard = () => <div>Dashboard Content</div>;
-const Users = () => <div>Users Content</div>;
+const CardContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #1f2229; */
+  overflow: hidden;
+`;
 
-const App: React.FC = () => {
-    const [activeContent, setActiveContent] = useState<React.ReactNode>(<Dashboard />);
-
-    const handleMenuClick = (key: string) => {
-        switch (key) {
-            case '1':
-                setActiveContent(<Dashboard />);
-                break;
-            case '2':
-                setActiveContent(<Users />);
-                break;
-            default:
-                setActiveContent(<Dashboard />);
-        }
-    };
-
+export default function Home() {
     return (
-        <SideMenu>
-            <></>
-        </SideMenu>
+        <>
+            <CardContainer>
+                <Card title="Integração Base" />
+            </CardContainer>
+        </>
     );
-};
-
-export default App;
+}

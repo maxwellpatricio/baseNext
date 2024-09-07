@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Integração Base",
-  description: "Integração Base - SPS Group",
+  description: "Integração Base utilizando Next.js e Styled Components",
 };
 
 export default function RootLayout({

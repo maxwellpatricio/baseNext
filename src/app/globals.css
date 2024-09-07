@@ -92,6 +92,7 @@ video {
   vertical-align: baseline;
 }
 
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -108,7 +109,6 @@ section {
 
 body {
   line-height: 1;
-  background-color: "#f0f2f5"
 }
 
 ol,
