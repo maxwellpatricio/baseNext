@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import { theme } from '@/styles/theme';
 
 export const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
+  grid-template-rows: 20px 80px 80px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
-  background: #000;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  background: ${theme.colors.primary};
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   text-align: center;
 `;
 
@@ -36,16 +37,7 @@ export const CardTextTitle = styled.h2`
   min-width: 0px;
   line-height: 1.2;
   margin: 0px;
-  background: linear-gradient(
-    110.78deg,
-    rgb(118, 230, 80) -1.13%,
-    rgb(249, 214, 73) 15.22%,
-    rgb(240, 142, 53) 32.09%,
-    rgb(236, 81, 87) 48.96%,
-    rgb(255, 24, 189) 67.94%,
-    rgb(26, 75, 255) 85.34%,
-    rgb(98, 216, 249) 99.57%
-  );
+  background: #000;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -57,7 +49,7 @@ export const CardTextBody = styled.p`
   font-weight: 300;
 `;
 
-export const CardStatWrapper = styled.div`
+export const CardFooterWrapper = styled.div`
   grid-area: stats;
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
@@ -66,7 +58,7 @@ export const CardStatWrapper = styled.div`
 
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: #5930e5;
+  background:  ${theme.colors.thirdary};;
 `;
 
 export const CardStats = styled.div`
