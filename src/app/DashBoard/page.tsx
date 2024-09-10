@@ -4,8 +4,9 @@ import { Card } from "@/components/Card/Card";
 import Header from "@/components/Header/Header";
 
 const CardContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +19,9 @@ export default function Home() {
         <>
             <Header />
             <CardContainer>
-                <Card title="Integração Base" />
+                <Card title="Usuários" />
+
+                {/* <Card title="Integração Base" /> */}
             </CardContainer>
         </>
     );

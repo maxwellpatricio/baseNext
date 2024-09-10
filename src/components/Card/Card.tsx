@@ -21,7 +21,7 @@ export const Card = ({
             </S.CardTextWrapper>
             <S.CardFooterWrapper>
                 <S.CardStats>
-                    <S.LinkText href="#">Ver mais</S.LinkText>
+                    <S.LinkText href="Users">Ver mais</S.LinkText>
                 </S.CardStats>
                 <S.CardStats>
                     <S.LinkText href="#">Adicionar</S.LinkText>
