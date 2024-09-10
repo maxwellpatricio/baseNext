@@ -1,6 +1,7 @@
 "use client"
 import styled from "styled-components";
 import { Card } from "@/components/Card/Card";
+import Header from "@/components/Header/Header";
 
 const CardContainer = styled.div`
   width: 100vw;
@@ -15,6 +16,7 @@ const CardContainer = styled.div`
 export default function Home() {
     return (
         <>
+            <Header />
             <CardContainer>
                 <Card title="Integração Base" />
             </CardContainer>
